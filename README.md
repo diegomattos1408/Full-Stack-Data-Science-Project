@@ -1,4 +1,6 @@
-# 🧠 DataSUS Pipeline: Engenharia de Dados, Ciência de Dados e Analytics com AWS & Databricks
+# Save the README content to a markdown file
+
+readme_content = """# 🧠 DataSUS Pipeline: Engenharia de Dados, Ciência de Dados e Analytics com AWS & Databricks
 
 Este projeto demonstra uma solução completa e escalável de **Engenharia de Dados**, **Ciência de Dados** e **Análise Preditiva** aplicada à saúde pública utilizando dados do **DataSUS**.
 
@@ -23,12 +25,16 @@ Analisar e modelar padrões relacionados à saúde pública brasileira por meio 
 ---
 
 ## 📁 Estrutura de Arquivos
+
 ├── a23_ETL_1.ipynb # Extração e pré-processamento de dados brutos
 ├── a23_ETL_2.ipynb # Limpeza, normalização e feature engineering
 ├── a23_EDA_3.ipynb # Análise exploratória visual e estatística
 ├── a23_ml.py # Treinamento e tracking de modelo Random Forest com MLflow
 ├── a23_final.xlsx # Dataset final com variáveis tratadas
 ├── README.md # Documentação do projeto
+
+
+---
 
 ## 📦 Stack Tecnológica
 
@@ -42,35 +48,45 @@ Analisar e modelar padrões relacionados à saúde pública brasileira por meio 
 
 ---
 
-2. Extração e Pré-processamento
-Execute os notebooks a23_ETL_1.ipynb e a23_ETL_2.ipynb para gerar o dataset final.
+## 🚀 Execução
 
-3. Análise Exploratória
-Execute a23_EDA_3.ipynb para obter insights visuais e estatísticos.
+### 2. Extração e Pré-processamento
+Execute os notebooks `a23_ETL_1.ipynb` e `a23_ETL_2.ipynb` para gerar o dataset final.
 
-4. Modelagem Preditiva
-Execute a23_ml.py para treinar o modelo, calcular métricas e registrar tudo no MLflow.
+### 3. Análise Exploratória
+Execute `a23_EDA_3.ipynb` para obter insights visuais e estatísticos.
 
-📊 Métricas do Modelo (Random Forest)
-MSE: 754.03
+### 4. Modelagem Preditiva
+Execute `a23_ml.py` para treinar o modelo, calcular métricas e registrar tudo no MLflow.
 
-R²: 0.8992 (modelo explica 89,9% da variância)
+---
 
-🛡️ Boas Práticas Adotadas
-Otimização de custos com S3 Intelligent-Tiering
+## 📊 Métricas do Modelo (Random Forest)
 
-Cluster auto-terminável no Databricks
+- **MSE**: 754.03
+- **R²**: 0.8992 (modelo explica 89,9% da variância)
 
-CI/CD com Git e possibilidade de integração com GitHub Actions
+---
 
-Logging automático com MLflow
+## 🛡️ Boas Práticas Adotadas
 
-Dados anonimizados conforme LGPD
+- Otimização de custos com S3 Intelligent-Tiering
+- Cluster auto-terminável no Databricks
+- CI/CD com Git e possibilidade de integração com GitHub Actions
+- Logging automático com MLflow
+- Dados anonimizados conforme LGPD
 
-👨‍💻 Autor
-Diego Cândido
-Data Scientist | Física | MBA USP
-LinkedIn | Portfólio
+---
 
-📄 Licença
+## 👨‍💻 Autor
+
+**Diego Cândido**  
+Data Scientist | Física | MBA USP  
+[LinkedIn](https://www.linkedin.com/) | [Portfólio](#)
+
+---
+
+## 📄 Licença
+
 Este projeto é livre para uso acadêmico e de demonstração. Para uso comercial, entre em contato com o autor.
+"""
