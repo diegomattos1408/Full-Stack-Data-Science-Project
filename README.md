@@ -77,7 +77,7 @@ Execute `a23_ml.py` para treinar o modelo, calcular métricas e registrar tudo n
 
 ## 👨‍💻 Autor
 
-**Diego Cândido**  
+**Diego de Mattos**  
 Data Scientist | Física | MBA USP  
 [LinkedIn]([https://www.linkedin.com/](https://www.linkedin.com/in/diego-de-mattos-166417167/)) 
 
