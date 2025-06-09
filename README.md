@@ -79,7 +79,7 @@ Execute `a23_ml.py` para treinar o modelo, calcular métricas e registrar tudo n
 
 **Diego Cândido**  
 Data Scientist | Física | MBA USP  
-[LinkedIn](https://www.linkedin.com/) | [Portfólio](#)
+[LinkedIn]([https://www.linkedin.com/](https://www.linkedin.com/in/diego-de-mattos-166417167/)) 
 
 ---
 
