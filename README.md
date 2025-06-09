@@ -24,13 +24,12 @@ Analisar e modelar padrões relacionados à saúde pública brasileira por meio 
 
 ## 📁 Estrutura de Arquivos
 
-├── a23_ETL_1.ipynb # Extração e pré-processamento de dados brutos
-├── a23_ETL_2.ipynb # Limpeza, normalização e feature engineering
-├── a23_EDA_3.ipynb # Análise exploratória visual e estatística
-├── a23_ml.py # Treinamento e tracking de modelo Random Forest com MLflow
-├── a23_final.xlsx # Dataset final com variáveis tratadas
-├── README.md # Documentação do projeto
-
+├── a23_ETL_1.ipynb       # Extração e pré-processamento de dados brutos  
+├── a23_ETL_2.ipynb       # Limpeza, normalização e feature engineering  
+├── a23_EDA_3.ipynb       # Análise exploratória visual e estatística  
+├── a23_ml.py             # Treinamento e tracking de modelo Random Forest com MLflow  
+├── a23_final.xlsx        # Dataset final com variáveis tratadas  
+├── README.md             # Documentação do projeto  
 
 ---
 
