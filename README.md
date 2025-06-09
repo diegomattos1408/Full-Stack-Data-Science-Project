@@ -1,6 +1,4 @@
-# Save the README content to a markdown file
-
-readme_content = """# 🧠 DataSUS Pipeline: Engenharia de Dados, Ciência de Dados e Analytics com AWS & Databricks
+"""# 🧠 DataSUS Pipeline: Engenharia de Dados, Ciência de Dados e Analytics com AWS & Databricks
 
 Este projeto demonstra uma solução completa e escalável de **Engenharia de Dados**, **Ciência de Dados** e **Análise Preditiva** aplicada à saúde pública utilizando dados do **DataSUS**.
 
