@@ -63,3 +63,37 @@ with mlflow.start_run():
     )
 
     run_id = mlflow.active_run().info.run_id
+
+import boto3
+import sagemaker
+
+s3 = boto3.client('s3')
+bucket = 'your-bucket-name'
+s3.upload_file('a23_final.xlsx', bucket, 'data/a23_final.xlsx')
+
+from sagemaker.sklearn.estimator import SKLearn
+from sagemaker import get_execution_role
+import sagemaker
+
+role = get_execution_role()
+sess = sagemaker.Session()
+
+estimator = SKLearn(
+    entry_point='a23_ml.py',
+    role=role,
+    instance_count=1,
+    instance_type='ml.m5.large',
+    framework_version='0.23-1',  # match your sklearn version
+    base_job_name='rf-model-train',
+    py_version='py3',
+    sagemaker_session=sess,
+    hyperparameters={
+        "test_size": 0.2
+    }
+)
+
+# Upload dataset to S3 if not already
+input_data = sess.upload_data('a23_final.xlsx', bucket=bucket, key_prefix='data')
+
+# Launch training job
+estimator.fit({'train': input_data})
